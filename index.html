@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Réele vie</title>
+    <title>لعبتي</title>
     <style>
         body {
             margin: 0;
@@ -61,8 +61,8 @@ function createCoin() {
     let coin = document.createElement("div");
     coin.classList.add("coin");
 
-    coin.style.left = Math.random() * window.innerWidth + "px";
-    coin.style.top = Math.random() * window.innerHeight + "px";
+    coin.style.left = Math.random() * (window.innerWidth - 30) + "px";
+    coin.style.top = Math.random() * (window.innerHeight - 30) + "px";
 
     document.body.appendChild(coin);
 }
@@ -83,7 +83,6 @@ function checkCollision() {
     });
 }
 
-// إنشاء أول عملة
 createCoin();
 </script>
 

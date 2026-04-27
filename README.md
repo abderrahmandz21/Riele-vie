@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>لعبتي الأولى</title>
+    <title>Réele vie</title>
     <style>
         body {
             margin: 0;
